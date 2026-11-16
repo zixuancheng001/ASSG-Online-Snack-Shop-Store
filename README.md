@@ -2,7 +2,23 @@
 
 A full-stack e-commerce web application for browsing and purchasing snacks online, built with **PHP, MySQL, HTML, CSS, and JavaScript**.
 
-## My Contributions (Core Modules)
+## How to Run Locally
+
+1. **Prerequisites**: Install **XAMPP** (with Apache and MySQL services).
+2. **Download & Place Files**:
+   - Click **Code** -> **Download ZIP** and extract the repository.
+   - Copy the project folder into your XAMPP `htdocs` directory (e.g., `C:\xampp\htdocs\[your-folder-name]`).
+3. **Database Setup**:
+   - Open the **XAMPP Control Panel** and start **Apache** and **MySQL**.
+   - Open `http://localhost/phpmyadmin` in your browser.
+   - Create a new database named `[your-database-name]` (matching the database config file).
+   - Select the database, go to the **Import** tab, and import the included `.sql` file.
+4. **Launch Application**:
+   - Open your browser and navigate to `http://localhost/[your-folder-name]/`.
+
+---
+
+## My Contributions
 
 1. Shopping Cart & Member Storefront
 Product Browsing & Search - Implemented member-facing product listing, detailed product views, and keyword searching.
